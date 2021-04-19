@@ -128,7 +128,6 @@ function init() {
     fireButton.onclick = handleFireButton
     let guessInput = document.getElementById('guessInput')
     guessInput.onkeypress = handleKeyPress;
-
     model.generateShipLocations();
 }
 
